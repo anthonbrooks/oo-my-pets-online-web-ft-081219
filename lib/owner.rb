@@ -62,7 +62,7 @@ class Owner
     
   end 
   
-  def lsit_pets 
+  def list_pets 
     
   end 
 end
