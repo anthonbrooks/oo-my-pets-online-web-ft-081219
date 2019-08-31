@@ -49,4 +49,20 @@ class Owner
   def buy_dog(name)
     dog = Dog.new(name, self) 
   end 
+  
+  def walk_dogs
+    @mood = 'happy'
+  end 
+  
+  def feed_cats
+    @mood = 'happy'
+  end 
+  
+  def sell_pets
+    
+  end 
+  
+  def lsit_pets 
+    
+  end 
 end
