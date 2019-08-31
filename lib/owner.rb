@@ -34,4 +34,11 @@ class Owner
     self.all.clear 
   end
   
+  def cats 
+    cats.all 
+  end 
+  
+  def dogs 
+    dogs.all 
+  end
 end
