@@ -35,10 +35,10 @@ class Owner
   end
   
   def cats 
-    cats.all 
+    Cats.all 
   end 
   
   def dogs 
-    dogs.all 
+    Dogs.all 
   end
 end
